@@ -1,10 +1,14 @@
-import Navbar from './components/NavBar';
 import './App.css';
+import Navbar from './component/navbar';
+import Footer from './component/footer';
+import Container from './component/main';
 
 function App() {
 	return (
-		<div>
+		<div className='App'>
 			<Navbar />
+			<Container />
+			<Footer />
 		</div>
 	);
 }
