@@ -1,0 +1,7 @@
+.containerFooter {
+	background-color: lightblue;
+	width: 100vw;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}

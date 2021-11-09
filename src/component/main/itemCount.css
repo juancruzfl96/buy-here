@@ -1,0 +1,54 @@
+.container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+
+.stock {
+	margin-bottom: 10px;
+	font-size: 17px;
+}
+
+.counters {
+	margin-bottom: 20px;
+}
+
+.buttonCount {
+	margin: 0 10px;
+	padding: 5px 20px;
+	font-size: 20px;
+	font-weight: 700;
+	cursor: pointer;
+}
+
+.count {
+	font-size: 20px;
+	font-weight: 600;
+}
+
+.disabled {
+	cursor: default;
+	background-color: #e1e1e1;
+	color: gray;
+	border-radius: 3px;
+	border: none;
+}
+
+.addCart {
+	padding: 5px 25px;
+	font-size: 17px;
+}
+
+.addCart:hover {
+	cursor: pointer;
+	background-color: #83b5ff;
+	border: 2px solid #83b5ff;
+	border-radius: 3px;
+}
+
+.disabled:hover {
+	cursor: default;
+	background-color: #e1e1e1;
+	border: none;
+}
