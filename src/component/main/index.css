@@ -2,14 +2,10 @@
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	flex-direction: column;
 	margin-bottom: 100px;
-	background-color: #f7f7f7;
 	padding: 10px;
-	border: 1px solid black;
-	border-radius: 5px;
 }
-
+/* 
 .itemData {
 	display: flex;
 	align-items: center;
@@ -26,4 +22,4 @@
 	align-items: center;
 	justify-content: center;
 	margin-bottom: 15px;
-}
+} */
