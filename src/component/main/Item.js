@@ -1,13 +1,13 @@
+import { Link } from 'react-router-dom';
 import './item.css';
 
-const Item = ({ item }) => {
+const Item = ({ title, price, id }) => {
 	return (
 		<div className='itemConteiner'>
-			<img src={item.pictureUrl} alt={item.title} width='200' />
-			<h3>{item.title}</h3>
-			<h3>{`$${item.price}`}</h3>
-			<h5>{item.description}</h5>
-			<a href='#'>Ver mas detalles</a>
+			{/* <img src={image} alt={title} width='150' /> */}
+			<h3>{title}</h3>
+			<h3>{`U$D${price}`}</h3>
+			<Link to={`/item/${id}`}>Ver mas detalles</Link>
 		</div>
 	);
 };

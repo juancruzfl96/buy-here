@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import Categories from './Categories';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faSearch, faUser } from '@fortawesome/free-solid-svg-icons';
@@ -10,9 +11,9 @@ const Navbar = () => {
 	return (
 		<div className='header'>
 			<div className='leftSection'>
-				<a href='/' className='home'>
+				<Link to='/' className='home'>
 					<h2>Home JCStrore</h2>
-				</a>
+				</Link>
 				<Categories />
 				<label className='search'>
 					<FontAwesomeIcon icon={faSearch} className='iconSearch' />

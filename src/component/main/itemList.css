@@ -1,3 +1,29 @@
 .itemListContainer {
 	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: center;
+}
+
+.itemConteiner {
+	min-height: 450px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.imgPhone {
+	width: 100%;
+	background-color: none;
+	height: 80%;
+}
+
+.data {
+	display: flex;
+	flex-direction: column;
+	max-height: 150px;
+}
+
+.detailBottom {
+	min-width: 225px;
 }

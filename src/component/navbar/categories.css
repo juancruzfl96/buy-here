@@ -42,15 +42,22 @@ body.active-modal {
 	margin-bottom: 30px;
 }
 
-.modal-content ul {
+.modal-content li {
 	list-style: none;
 }
 
-.modal-content ul li {
+.catLink {
+	text-decoration: none;
+}
+
+.categoryLink {
 	margin-bottom: 20px;
 	padding: 10px 0;
+	list-style: none;
+	text-decoration: none;
+	color: black;
 }
-.modal-content ul li:hover {
+.categoryLink:hover {
 	background-color: #e4e4e4;
 }
 .modal-content ul li a {
