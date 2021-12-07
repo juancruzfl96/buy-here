@@ -1,0 +1,18 @@
+.widgetContainer {
+	margin-top: 150px;
+	background-color: rgb(233, 233, 233);
+	width: 80%;
+	height: 200px;
+	border-radius: 5px;
+	padding: 20px 35px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.img {
+	background: red;
+	height: 100px;
+	width: 100px;
+	border-radius: 5px;
+}

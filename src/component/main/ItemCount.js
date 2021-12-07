@@ -1,9 +1,12 @@
-import { useState } from 'react';
+import { useState, useContext } from 'react';
 import './itemCount.css';
+import { CartContext } from '../../contexts/CartContext';
 
 const ItemCount = ({ initial, stockTotal }) => {
 	const [count, setCount] = useState(initial);
 	const [stock, setStock] = useState(stockTotal);
+	const [cont, setCont] = useState(0);
+	const { setCart, cart } = useContext(CartContext);
 
 	const increase = () => {
 		if (count < stock) {
@@ -21,6 +24,8 @@ const ItemCount = ({ initial, stockTotal }) => {
 		if (stock >= count) {
 			setStock(stock - count);
 			console.log('Su stock es de ' + (stock - count));
+			setCont(count);
+			setCart(...cart, { cantidad: cont });
 		} else {
 			console.log('No contamos con ese stock');
 		}
